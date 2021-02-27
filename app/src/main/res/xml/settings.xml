@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="User Profile">
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="prefUsername"
+            android:summary="Set Name of User"
+            android:title="Name" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Salary Details">
+        <EditTextPreference
+            android:defaultValue="269"
+            android:key="prefRegularPay"
+            android:summary="Set Regular Pay for 8 Hours"
+            android:title="Regular Pay" />
+        <EditTextPreference
+            android:defaultValue="33"
+            android:key="prefOtPay"
+            android:summary="Set OT Pay per Hour"
+            android:title="OT Pay" />
+    </PreferenceCategory>
+</PreferenceScreen>
